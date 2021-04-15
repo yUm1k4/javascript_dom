@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Tree</title>
+</head>
+<body>
+
+    <h3>NodeList vs HTMLCollection</h3>
+    <ul>
+        <li>Keduanya merupakan kumpulan node</li>
+        <li>Struktur datanya mirip array</li>
+        <li>nodeList dapat berisi node apapun, sdhkn HTMLCollection harus berisi elemen HTML</li>
+        <li>HTMLCollection bersifat live sdgkn nodeList tidak</li>
+    </ul>
+
+    <hr>
+
+    <h3>Struktur Hierarki DOM</h3>
+    <ul>
+        <li>Root Node</li>
+        <ul>
+            <li>node yang menjadi sumber dari semua node lain di dalam DOM</li>
+            <li>document</li>
+        </ul>
+
+        <li>Parent Node</li>
+        <ul>
+            <li>node yang berada 1 tingkat diatas node yang lain</li>
+            <li>body adalah parent dari h1, p, p, div, dan a</li>
+        </ul>
+        
+        <li>Child Node</li>
+        <ul>
+            <li>node yang berada 1 tingkat dibawah node yang lain</li>
+            <li>h1 adalah child dari body</li>
+        </ul>
+
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
