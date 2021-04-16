@@ -16,4 +16,4 @@ p[2].style.backgroundColor = 'lightblue';
 
 // document.getElementsByClassName() -> HTMLCollections
 const p1 = document.getElementsByClassName('p1');
-p1[0].innerHTML = 'Ini diubah dari js';
+p1[0].innerHTML = 'Ini diubah dari js'; 
